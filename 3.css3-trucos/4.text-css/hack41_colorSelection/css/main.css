@@ -1,0 +1,21 @@
+body{
+    max-width: 960px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;  
+    text-align: justify; 
+}
+
+h1::selection{
+    background-color: rgba(99, 242, 172, 95);
+    color: aliceblue;
+}
+
+h2::selection{
+    background-color: rgba(99, 157, 242, 95);
+    color: white;
+}
+
+p::selection{
+    background-color: rgba(242, 226, 99,95);
+}

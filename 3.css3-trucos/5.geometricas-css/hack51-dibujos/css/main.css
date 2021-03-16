@@ -1,0 +1,56 @@
+body{
+    padding: 40px;
+    
+}
+
+.egg, .pacman, .start{
+    display: block;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width:126px;
+    height: 180px;
+}
+.egg{
+    background-color: indianred;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+    
+
+.pacman{
+   height: 0px;
+   width: 0px;
+   border: 60px solid yellow;
+   border-right: 60px solid transparent;
+   border-radius: 60px;
+}
+
+.start{
+   height: 0px;
+   width: 0px;
+   margin: 50px 0;
+   position: relative;
+   
+   /*borders*/
+   border: 60px solid forestgreen;
+   border-top: 60px solid transparent;
+   border-left: 60px solid transparent;
+   border-right: 60px solid forestgreen;
+
+   transform: rotate(225deg);
+}
+
+.start:before{
+   height: 0px;
+   width: 0px;
+   margin: 50px 0;
+   position: relative;
+   padding-left: 2.4rem;
+   
+   /*borders*/
+   border: 60px solid royalblue;
+   border-top: 60px solid transparent;
+   border-left: 60px solid transparent;
+   border-right: 60px solid royalblue;
+
+   transform: rotate(180deg);
+}

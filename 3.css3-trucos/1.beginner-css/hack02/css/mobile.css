@@ -1,0 +1,20 @@
+ body{
+    padding: 0px 10px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    align-items: center;
+ }
+
+ h1{color: blue;}
+ 
+ .imgs{
+    
+    margin: auto;
+    display: inline-flex;
+ }
+ img{
+     width: 85%;
+     
+ }
+

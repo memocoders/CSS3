@@ -1,0 +1,26 @@
+div{
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    background-image: url(/6.animaciones-css/hack62-Animaciones/img/emoji.png);
+    background-size: contain;
+    background-position: 50%  50%;
+    background-repeat: no-repeat;
+    
+    -webkit-animation: jumper .8s steps(7) infinite; 
+
+}
+
+/*Keyframe-Puntos animacion*/
+@-webkit-keyframes jumper{
+    0%{
+        background-position: 47px;
+
+    }
+    100%{
+        background-position: -198px;
+    }
+}

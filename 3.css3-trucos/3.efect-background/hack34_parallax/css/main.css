@@ -1,0 +1,58 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    size: 14px;
+}
+
+/*Centrar contenido*/
+.contenedor{
+    max-width: 960px;
+    margin: auto;
+}
+
+.bloque h1{
+    color: white;
+    font-size: 200px;
+    line-height: 800px;
+    margin: auto;
+}
+
+.bloque h2{
+    font-size: 2.9rem;
+    padding-bottom: 30px;
+}
+
+.bloque p{
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 2px 5px;
+}
+
+.bloque.parallax{
+    height: 800px ;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.parallax.gradient-1{
+    background-image: url(/3.efect-background-css/hack34_parallax/img/cultura_paisajeiluminado_landuum5.jpg);
+    background-attachment: fixed;
+}
+
+.parallax.gradient-2{
+    background-image: url(/3.efect-background-css/hack34_parallax/img/paisaje_catarata.jpg);
+    background-attachment: fixed;
+}
+
+.parallax.gradient-3{
+    background-image: url(/3.efect-background-css/hack34_parallax/img/paisaje_atardecer.webp);
+    background-attachment: fixed;
+}
+
+#bloque-2 h1{
+    color:yellow;
+}
+
+#bloque-3 h1{
+    color: black;
+}

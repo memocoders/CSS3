@@ -1,0 +1,8 @@
+@import "tittle.css";
+@import  "paragraph.css";
+
+body{
+  padding: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(230, 255, 130, 100);
+}

@@ -1,0 +1,43 @@
+body{
+    padding: 2px 2px;
+    background-color: aqua;
+}
+
+.contenedor{
+    width: 90%;
+    height: 100px;
+    background-color: blue;
+    margin: 2px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+#cinta{
+    height: 40px;
+    background-color: rgb(18, 172, 121);
+}
+
+#nav{
+    background-color: brown;
+}
+
+#content{
+    width: 62%;
+    height: 400px;
+    display: block;
+    float: right;
+    position: relative;
+    right: 8%;
+   
+}
+
+#index{
+    width: 25%;
+    height: 400px;
+    display: block;
+    float: left;
+}
+
+#footer{
+    clear: both;
+}

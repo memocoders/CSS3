@@ -1,0 +1,15 @@
+div{
+    width: 121px;
+    height: 181px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    background-color: darkorange;
+
+    transition: all 3s;
+}
+
+div:hover{
+    transform: rotate(90deg) scale(6);
+    background-color: blue;
+}

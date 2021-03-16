@@ -1,0 +1,31 @@
+
+body{
+    padding: 5px 3px;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.contenedor-mensaje{
+    width: 300px;
+    height: 100px;
+    display: block;
+
+    /*centrado horizontal*/
+    margin: auto; 
+
+    /*centrado vertical*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    overflow: auto;
+
+}

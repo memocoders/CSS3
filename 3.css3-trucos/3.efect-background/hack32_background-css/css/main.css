@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 4px 8px;
+    border: 0px;
+    transform: none;
+}
+
+.titulo{
+    display: block;
+    position: absolute;
+    left: 40%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    color: blue;
+}
+
+.contenedor1{
+    width: 180px;
+    height: 180px;
+    display: block;
+    background-image: url(/3.efect-background-css/hack32_background/img/machu-picchu.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contenedor2{
+    width: 280px;
+    height: 380px;
+    display: block;
+    background-image: url(/3.efect-background-css/hack32_background/img/machu-picchu.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenedor3{
+    width: 80%;
+    height: 380px;
+    display: block;
+    background-image: url(/3.efect-background-css/hack32_background/img/machu-picchu.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,68 @@
+/*importar otros estilos*/
+@import url("/css/2.bloques-css/block.css");
+@import url("/css/3.media-css/media.css");
+@import url("/css/4.listas-css/listas.css");
+
+
+
+/*Unidades medida en texto relativa em*/
+
+body{
+    font-size: 17px;
+    text-align: justify;
+  
+}
+
+
+/* Tamanio titulos, subtitulos */
+.bigger{
+    font-size: 1.75em;
+}
+
+.medium{
+    font-size: 1.55em;
+    
+}
+
+.smaller{
+    font-size: 1.25em;
+
+}
+
+/* ----- Formateo header ----- */
+
+/* formatea listas*/
+header nav ul {
+    list-style: none;
+}
+
+/*formatea enlaces*/
+header nav li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:white;
+
+    /*ayuda efecto rollover*/
+    transition: all 0.5s;
+
+}
+
+/*desactiva enlaces*/
+.disable{
+    opacity: 0.2;
+    cursor: no-drop;
+}
+
+
+/* ----- Efecto  rollover header ----- */
+header nav li a:hover{
+    font-size: 1.5em;
+    color:aquamarine;
+    transition: all 0.4s;
+}
+
+
+
+
+
+

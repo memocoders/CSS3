@@ -1,0 +1,65 @@
+/*------ images start  index---------*/
+
+/*quita espacios parrafos*/
+.gallery{
+    font-size: 0;
+}
+
+
+/*alinea bloque imagenes*/
+.gallery img{
+    width: 16%;
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+/*margen a   imagenes con clase carrol*/
+img.carrol {
+    margin: 20px;
+}
+
+
+/*------ images content  index ---------*/
+
+/*p*/
+img.photo
+{
+    width: 10%;
+    margin: 0.5em 0.5em 0;
+}
+
+#floatLeft{
+    float: left;
+    
+}
+
+#floatRigth{
+    float: right;
+}
+
+/*------ images rooms and  dining---------*/
+
+section.content img{
+    max-width: 100%;
+    margin: 10px auto 0;  
+}
+
+/*------ Fondo a index---------*/
+
+#main-wrapper.background::before{
+ content: ""; 
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ left: 0;
+
+ background-image: url("/assets/background/splash_hotelphoto.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ opacity: 0.2;
+ z-index: -1;
+}
+
+

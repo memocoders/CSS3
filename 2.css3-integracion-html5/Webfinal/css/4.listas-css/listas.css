@@ -1,0 +1,46 @@
+
+/* controla listas */
+
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+.checklist li{
+    border:1px solid orangered;
+    padding: 0.25em 0.5em;
+    margin: 0.4em 0.8em;
+    display: inline-block;
+    font-size: 1.0em;
+}
+
+#services.checklist ul > li{
+
+    color:gray;
+    border-color: gray;
+}
+
+/**efecto sobre listas | rooms */
+#arrivalinfo strong{
+    background-color:silver;
+    border: 2px gray solid;
+    padding: 0.25em 0.5em;
+    margin: 10px 0px ;
+    display: block;
+    cursor: pointer;
+}
+
+#arrivalinfo li{
+    margin-bottom: 1.7em;
+    box-sizing: border-box;
+}
+
+#arrivalinfo .rollover{
+    display: none;
+}
+
+#arrivalinfo li:hover .rollover {
+    display: block;
+}

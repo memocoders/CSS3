@@ -1,0 +1,127 @@
+
+
+
+/* ---------Header--------------- */
+
+header{
+
+    height: 80px;
+    background-color: #0093E9;
+    background-image: 
+        linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    position: relative;
+    margin: auto;
+}
+
+
+header nav{
+    position: absolute;
+    bottom:2px;
+    display: inline-block;
+}
+
+/*elementos lista li hijas directas de ul*/
+header nav ul > li{
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: baseline;
+}
+
+/*enlaces*/
+header nav  li a{
+    display: inline-block;
+    margin-right: 0 15px;
+    vertical-align: baseline;
+
+    /*iconos*/
+    background-image: url(/assets/icons/info.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1.8em;
+}
+
+/*iconos*/
+header nav  li.icon1 a{
+    background-image: url(/assets/icons/attractions.png);
+}
+
+header nav  li.icon2 a{
+    background-image: url(/assets/icons/rooms.png);
+}
+header nav  li.icon3 a{
+    background-image: url(/assets/icons/dining.png);
+}
+header nav  li.icon4 a{
+    background-image: url(/assets/icons/events.png);
+}
+
+
+/*-----------footer-----------*/
+
+footer{
+    background-color :#0D0D0D;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    margin: 0% auto;
+} 
+footer div ul {
+    margin:2px auto ;
+
+}
+
+footer li{
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom:15px;
+}
+
+footer li a img{
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*-----------
+    main-wrapper: ayuda a poner el footer 
+    siempre al final del contenido
+------------*/
+
+#main-wrapper{
+ min-height: 100vh;
+ position: relative;
+}
+
+/*-----------
+    main: ayuda centrar el contenido  y footer
+------------*/
+
+main{
+    width: 90%;
+    margin: 10px auto 0;
+    padding:10px;
+}
+
+main::after{
+    content: "";
+    height: 40px;
+    display: block;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+
+/*------------- aside--------------*/
+.col-iz{
+    float: left;
+    width: 55%;
+}
+
+.col-der{
+    float: right;
+    width: 40%;
+}
